@@ -1,4 +1,3 @@
-
 name: Generate contribution graph
 
 on:
@@ -9,23 +8,19 @@ on:
 permissions:
   contents: write
 
-# Prevent simultaneous profile workflows from pushing to main.
 concurrency:
-  group: aariso0-profile-updates
+  group: aariso0-profile-content
   cancel-in-progress: false
 
 jobs:
   activity-graph:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out profile repository
         uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
 
       - name: Generate contribution graph
         uses: alexcerezo/activity-graph@v1
         with:
           username: Aariso0
-          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}

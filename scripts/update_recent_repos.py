@@ -57,7 +57,10 @@ def fetch_repositories() -> list[dict]:
             raise RuntimeError("GitHub API returned an unexpected response.")
 
         for repo in batch:
-            # Keep the list focused on original, active repositories owned by Aariso0.
+            # Exclude the profile repository itself, as well as forks and archived repos.
+            # GitHub repository names are case-insensitive.
+            if (repo.get("full_name") or "").casefold() == f"{USERNAME}/{USERNAME}".casefold():
+                continue
             if repo.get("fork") or repo.get("archived"):
                 continue
             if not repo.get("pushed_at") or not repo.get("html_url"):
