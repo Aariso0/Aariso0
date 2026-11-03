@@ -52,9 +52,10 @@ Automatically sorted by latest push. This section refreshes every six hours.
 ### Contribution graph
 
 <!-- BEGIN ACTIVITY-GRAPH -->
-
-_Run the **Generate contribution graph** workflow once to populate this section._
-
+<picture>
+  <source media="(max-width: 767px)" srcset="activity-graph-mobile.svg">
+  <img src="activity-graph.svg" alt="Activity Graph" width="100%">
+</picture>
 <!-- END ACTIVITY-GRAPH -->
 
 ---
