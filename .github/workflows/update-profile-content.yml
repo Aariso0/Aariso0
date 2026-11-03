@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: aariso0-profile-content
+  group: aariso0-profile-updates
   cancel-in-progress: false
 
 jobs:
