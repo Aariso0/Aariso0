@@ -28,4 +28,4 @@ jobs:
         uses: alexcerezo/activity-graph@v1
         with:
           username: Aariso0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
