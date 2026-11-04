@@ -78,9 +78,10 @@ I'm a developer who likes understanding how things work — then building someth
 ### The contribution trail
 
 <!-- BEGIN ACTIVITY-GRAPH -->
-
-_Run the **Generate contribution graph** workflow once to populate this section._
-
+<picture>
+  <source media="(max-width: 767px)" srcset="activity-graph-mobile.svg">
+  <img src="activity-graph.svg" alt="Activity Graph" width="100%">
+</picture>
 <!-- END ACTIVITY-GRAPH -->
 
 ---
