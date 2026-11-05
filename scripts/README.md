@@ -30,11 +30,11 @@ I build software across developer tooling, automation, AI-assisted workflows, an
 
 ## Recently pushed repositories
 
-Automatically sorted by latest push. This section refreshes every six hours.
+Automatically sorted by latest push. This section refreshes every week.
 
 <!-- RECENT_REPOS_START -->
 
-_Run the **Update profile content** workflow once to populate this section._
+_Run the **Weekly profile refresh** workflow once to populate this section._
 
 <!-- RECENT_REPOS_END -->
 
@@ -49,7 +49,7 @@ _Run the **Update profile content** workflow once to populate this section._
 
 <!-- BEGIN ACTIVITY-GRAPH -->
 
-_Run the **Generate contribution graph** workflow once to populate this section._
+_Run the **Weekly profile refresh** workflow once to populate this section._
 
 <!-- END ACTIVITY-GRAPH -->
 

@@ -1,23 +1,25 @@
-name: Update profile content
+name: Weekly profile refresh
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    # Every Monday at 03:00 UTC (08:30 IST).
+    - cron: "0 3 * * 1"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# One workflow owns the branch, so one group is enough.
 concurrency:
-  group: aariso0-profile-content
+  group: profile-content
   cancel-in-progress: false
 
 jobs:
-  update:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Generate GitHub statistics card
         uses: stats-organization/github-readme-stats-action@v2
@@ -43,7 +45,7 @@ jobs:
           GITHUB_USERNAME: Aariso0
         run: python3 scripts/update_recent_repos.py
 
-      - name: Commit generated cards and README changes
+      - name: Commit cards and recent repositories
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -52,5 +54,14 @@ jobs:
             echo "Profile content is already up to date."
             exit 0
           fi
-          git commit -m "chore: update profile cards and recent repositories"
+          git commit -m "chore: refresh profile cards and recent repositories"
+          git pull --rebase
           git push
+
+      # The action generates the SVG files, injects them into README.md between
+      # the ACTIVITY-GRAPH markers, and commits and pushes the result itself.
+      - name: Generate contribution graph
+        uses: alexcerezo/activity-graph@v1
+        with:
+          username: Aariso0
+          token: ${{ secrets.GITHUB_TOKEN }}

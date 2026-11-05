@@ -60,7 +60,7 @@ I'm a developer who likes understanding how things work — then building someth
 
 ## Fresh from the workbench
 
-<sub>My five most recently pushed public projects, refreshed automatically every six hours.</sub>
+<sub>My five most recently pushed public projects, refreshed automatically every week.</sub>
 
 <!-- RECENT_REPOS_START -->
 
@@ -84,10 +84,6 @@ I'm a developer who likes understanding how things work — then building someth
 ### The contribution trail
 
 <!-- BEGIN ACTIVITY-GRAPH -->
-<picture>
-  <source media="(max-width: 767px)" srcset="activity-graph-mobile.svg">
-  <img src="activity-graph.svg" alt="Activity Graph" width="100%">
-</picture>
 <picture>
   <source media="(max-width: 767px)" srcset="activity-graph-mobile.svg">
   <img src="activity-graph.svg" alt="Activity Graph" width="100%">
