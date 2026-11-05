@@ -1,19 +1,25 @@
 <div align="center">
   <img src="./profile/banner.svg" width="100%" alt="Aariso0 — building useful things, one experiment at a time" />
-
-  <p>
-    <strong>Developer · Builder · Curious by default</strong><br />
-    I turn interesting ideas into practical software — from low-level tools to AI-powered workflows.
-  </p>
-
-  <p>
-    <a href="https://github.com/Aariso0?tab=repositories">Explore projects</a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/Aariso0?tab=stars">Starred projects</a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/Aariso0">GitHub profile</a>
-  </p>
 </div>
+
+<table>
+  <tr>
+    <td width="72%" valign="middle">
+      <h3>Developer · Builder · Curious by default</h3>
+      <p>I turn interesting ideas into practical software — from low-level tools to AI-powered workflows.</p>
+      <p>
+        <a href="https://github.com/Aariso0?tab=repositories">Explore projects</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Aariso0?tab=stars">Starred projects</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Aariso0">GitHub profile</a>
+      </p>
+    </td>
+    <td width="28%" align="center" valign="middle">
+      <img src="./profile/mascot.svg" width="180" alt="Blue-haired pixel-art developer mascot waving" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -57,13 +63,11 @@ I'm a developer who likes understanding how things work — then building someth
 <sub>My five most recently pushed public projects, refreshed automatically every six hours.</sub>
 
 <!-- RECENT_REPOS_START -->
-
 - **[BuyPal](https://github.com/Aariso0/BuyPal)** — BuyPal is an AI-powered autonomous shopping agent that uses live browser automation to discover products, compare prices, navigate mercha... · pushed 03 Nov 2026, 06:16 PM IST
 - **[helper](https://github.com/Aariso0/helper)** — Offline-first Android app for teachers (Kotlin, Jetpack Compose, Room). Tap-to-mark attendance, student feedback, homework sharing, paren... · `Kotlin` · pushed 03 Nov 2026, 10:57 AM IST
 - **[logic-layer](https://github.com/Aariso0/logic-layer)** — No description added yet. · `Python` · pushed 23 Aug 2026, 08:17 PM IST
 - **[Homelabbing](https://github.com/Aariso0/Homelabbing)** — No description added yet. · pushed 07 Aug 2026, 12:53 AM IST
 - **[tetsing](https://github.com/Aariso0/tetsing)** — No description added yet. · pushed 25 Jun 2026, 02:15 PM IST
-
 <!-- RECENT_REPOS_END -->
 
 ---
@@ -78,6 +82,10 @@ I'm a developer who likes understanding how things work — then building someth
 ### The contribution trail
 
 <!-- BEGIN ACTIVITY-GRAPH -->
+<picture>
+  <source media="(max-width: 767px)" srcset="activity-graph-mobile.svg">
+  <img src="activity-graph.svg" alt="Activity Graph" width="100%">
+</picture>
 <picture>
   <source media="(max-width: 767px)" srcset="activity-graph-mobile.svg">
   <img src="activity-graph.svg" alt="Activity Graph" width="100%">
