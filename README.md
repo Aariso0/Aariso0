@@ -64,8 +64,8 @@ I'm a developer who likes understanding how things work — then building someth
 
 <!-- RECENT_REPOS_START -->
 
-- **[BuyPal](https://github.com/Aariso0/BuyPal)** — BuyPal is an AI-powered autonomous shopping agent that uses live browser automation to discover products, compare prices, navigate mercha... · pushed 03 Nov 2026, 06:16 PM IST
-- **[helper](https://github.com/Aariso0/helper)** — Offline-first Android app for teachers (Kotlin, Jetpack Compose, Room). Tap-to-mark attendance, student feedback, homework sharing, paren... · `Kotlin` · pushed 03 Nov 2026, 10:57 AM IST
+- **[BuyPal](https://github.com/Aariso0/BuyPal)** — BuyPal is an AI-powered autonomous shopping agent that uses live browser automation to discover products, compare prices, navigate mercha... · pushed 09 Nov 2026, 03:35 PM IST
+- **[helper](https://github.com/Aariso0/helper)** — Offline-first Android app for teachers (Kotlin, Jetpack Compose, Room). Tap-to-mark attendance, student feedback, homework sharing, paren... · `Kotlin` · pushed 08 Nov 2026, 11:41 PM IST
 - **[logic-layer](https://github.com/Aariso0/logic-layer)** — No description added yet. · `Python` · pushed 23 Aug 2026, 08:17 PM IST
 - **[Homelabbing](https://github.com/Aariso0/Homelabbing)** — No description added yet. · pushed 07 Aug 2026, 12:53 AM IST
 - **[tetsing](https://github.com/Aariso0/tetsing)** — No description added yet. · pushed 25 Jun 2026, 02:15 PM IST
